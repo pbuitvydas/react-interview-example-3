@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+dt {
+  float: left;
+  width: 10%;
+  text-align: right;
+  padding: 5px;
+  clear: left;
+  font-weight: bold;
+}
+dd {
+  float: left;
+  width: 60%;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+dl:after {
+  content: "";
+  display: table;
+  clear: both;
+}
